@@ -1,0 +1,33 @@
+{
+  "name": "sync-redis-store",
+  "version": "0.1.0",
+  "description": "A synchronous Fibers-powered redis store for SyncCache module",
+  "main": "sync-redis-store.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha/"
+  },
+  "keywords": [
+    "sync",
+    "fibers",
+    "cache",
+    "store",
+    "redis"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jtblin/node-sync-redis-store"
+  },
+  "author": "Jerome Touffe-Blin <jtblin@gmail.com>",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "redis": "^0.12.1",
+    "syncho": "~0.2.3"
+  },
+  "devDependencies": {
+    "chai": "~2.3.0",
+    "fakeredis": "^0.3.1",
+    "mocha": "~2.2.5",
+    "sinon": "~1.14.1",
+    "sinon-chai": "~2.7.0"
+  }
+}
